@@ -1,4 +1,4 @@
-console.log('Client side javascript is loaded..')
+// console.log('Client side javascript is loaded..')
 
 // fetch('http://puzzle.mead.io/puzzle').then((response) =>{   //using fetch() we can fetch json data from an urland parse it into js object
 //    response.json().then((data) => {
