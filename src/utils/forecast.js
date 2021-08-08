@@ -12,7 +12,7 @@ request({url , json : true},(error, { body } )=>{
        callback(undefined , 
         //    temperature : body.current.temperature,
         //    propprecep :  body.current.feelslike
-         body.current.weather_descriptions[0] + ' .It is currently ' + body.current.temperature + ' degree out. And it feels like ' + body.current.feelslike +' degrees.There is a '+body.current.precip + '%chance of rain.')
+         body.current.weather_descriptions[0] + ' . It is currently ' + body.current.temperature + ' degree out. And it feels like ' + body.current.feelslike +' degrees.There is a '+body.current.precip + '% chance of rain. And humidity is ' + body.current.humidity + '%')
 
        
    }
